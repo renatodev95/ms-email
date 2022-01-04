@@ -22,5 +22,5 @@ spring:
       mail.smtp.auth: true
       mail.smtp.starttls.enable: true
   rabbitmq:
-    addresses: amqps://ylosbsyc:8v3ebmIQCa654Lrf8dgKRSKx62alsttD@rat.rmq2.cloudamqp.com/ylosbsyc
+    addresses: # AMQP URL no site api.cloudamqp.com
     queue: ms.email

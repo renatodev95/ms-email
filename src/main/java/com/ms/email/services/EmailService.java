@@ -38,9 +38,4 @@ public class EmailService {
             return emailRepository.save(emailModel);
         }
     }
-
-    public EmailModel findById(Long id) {
-        Optional<EmailModel> emailOptional = emailRepository.findById(id);
-        return emailOptional.orElse(null);
-    }
 }
